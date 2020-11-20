@@ -1,0 +1,95 @@
+
+html {
+  min-height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+ background: steelblue;
+  min-height: 100%;
+  padding-bottom: 5rem;
+}
+
+
+
+h1{
+  text-align: center;
+  font-size: 4rem;
+  color: white;
+}
+
+h2{
+  font-size: 4rem;
+  
+}
+
+.crearCita{
+  width: 400px;
+  
+  
+}
+
+
+/*CSS FORMULARIO*/
+form{
+  width: 400px;
+  height: 500px;
+  border: solid 1px black;
+  border-radius: 10px;
+  background: darkslateblue;
+  box-shadow: 3px 3px 18px black;
+ 
+
+}
+
+input[type="text"],[ name="Fecha"],[ name="Hora"],[ name="Sintomas"]{
+  width: 300px;
+  margin-left: 50px;
+  align-items: center;
+}
+
+.button-primary{
+  width: 180px;
+  height: 40px;
+  margin-left: 103px;
+}
+
+/*MENSAJE DE ALERTA-ERROR */
+
+.alerta-error{
+  width: 400px;
+  height: 100px;
+  background: white;
+  color: red;
+  font-size: 26px;
+  text-align: center;
+  box-shadow: 3px 3px 18px black;
+}
+
+/*estilos de las citas  */
+
+.cita{
+  width: 400px;
+  height: 310px;
+  border: solid 1px black;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 3px 3px 18px black;
+  margin-bottom: 10px;
+  
+ 
+}
+
+.button-eliminar{
+  width: 180px;
+  height: 40px;
+  margin-left: 103px;
+}
+
+
+/* ESTILOS DE CITADOS*/
+
+.citados{
+  margin-left: 10px;
+}
